@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     fun changeButtonClick(view: View) {
 
         imageView.setImageResource(R.drawable.second_image)
+        //changing image resource when the user click the "change" button
 
     }
 }
