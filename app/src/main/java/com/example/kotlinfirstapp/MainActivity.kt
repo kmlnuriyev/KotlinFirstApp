@@ -10,6 +10,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val x = 5.0
+        val y = 4.0
+
+        var result: Double = x * y / 3
+
+        println("Result is " + result)
     }
 
     fun changeButtonClick(view: View) {
